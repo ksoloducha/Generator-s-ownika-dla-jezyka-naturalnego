@@ -4,7 +4,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
-import java.util.TreeSet;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -34,15 +33,15 @@ class DictionaryTest {
     }
 
     @Test
-    public void saveToFile_should_throwFileNotFountException_when_pathToOutputFileIsIncorrect(){
+    public void saveToFile_should_throwFileNotFountException_when_pathToOutputFileIsIncorrect() {
         String outputFileName = path + File.separator + "nonexistent_directory" + File.separator + "out.bin";
-        assertThrows(FileNotFoundException.class, () ->{
+        assertThrows(FileNotFoundException.class, () -> {
             dictionary.saveToFile(outputFileName);
         });
     }
 
     @Test
-    public void createFromFile_should_createDictionaryFromFile_when_correctFileExists(){
+    public void createFromFile_should_createDictionaryFromFile_when_correctFileExists() {
         String outputFileName = path + File.separator + "out.bin";
         try {
             dictionary.saveToFile(outputFileName);
@@ -56,9 +55,9 @@ class DictionaryTest {
     }
 
     @Test
-    public void createFromFile_should_throwFileNotFountException_when_pathToOutputFileIsIncorrect(){
+    public void createFromFile_should_throwFileNotFountException_when_pathToOutputFileIsIncorrect() {
         String outputFileName = path + File.separator + "nonexistent_directory" + File.separator + "out.bin";
-        assertThrows(FileNotFoundException.class, () ->{
+        assertThrows(FileNotFoundException.class, () -> {
             dictionary.createFromFile(outputFileName);
         });
     }

@@ -1,0 +1,14 @@
+Example Title
+
+Some example words to test ReadFile class;
+
+Here is even more example words, words- words
+
+Test, test... TEST
+
+Words should be put
+in
+alphabetic
+order
+
+

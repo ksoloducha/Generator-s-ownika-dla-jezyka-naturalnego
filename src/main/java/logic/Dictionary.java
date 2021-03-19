@@ -1,6 +1,7 @@
 package logic;
 
 import java.io.*;
+import java.util.Locale;
 import java.util.TreeSet;
 
 public class Dictionary implements Serializable {
@@ -15,7 +16,7 @@ public class Dictionary implements Serializable {
 
     public void add(String... words) {
         for (String word : words) {
-            this.words.add(word);
+            this.words.add(word.toLowerCase());
         }
     }
 
@@ -33,8 +34,8 @@ public class Dictionary implements Serializable {
         }
     }
 
-    public static Dictionary createFromFile(String inputFile) throws ClassNotFoundException, IOException {
-        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(inputFile))) {
+    public static Dictionary createFromFile(String inputFilePath) throws ClassNotFoundException, IOException {
+        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(inputFilePath))) {
             Dictionary dictionaryFromFile = (Dictionary) inputStream.readObject();
             return dictionaryFromFile;
         } catch (FileNotFoundException | ClassNotFoundException e1) {
@@ -44,26 +45,26 @@ public class Dictionary implements Serializable {
         }
     }
 
-    public TreeSet<String> getWords(){
+    public TreeSet<String> getWords() {
         return words;
     }
 
-    public String getTitle(){
+    public String getTitle() {
         return title;
     }
 
     @Override
-    public int hashCode(){
+    public int hashCode() {
         int hashCode = title.hashCode() * 17 + words.hashCode() * 23;
         return hashCode;
     }
 
     @Override
-    public boolean equals(Object other){
-        if(other == this){
+    public boolean equals(Object other) {
+        if (other == this) {
             return true;
         }
-        if(!(other instanceof logic.Dictionary)){
+        if (!(other instanceof logic.Dictionary)) {
             return false;
         }
         Dictionary otherDictionary = (Dictionary) other;
