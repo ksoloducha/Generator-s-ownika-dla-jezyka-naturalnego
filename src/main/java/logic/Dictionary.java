@@ -1,7 +1,6 @@
 package logic;
 
 import java.io.*;
-import java.util.Locale;
 import java.util.TreeSet;
 
 public class Dictionary implements Serializable {
