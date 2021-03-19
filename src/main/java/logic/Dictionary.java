@@ -23,7 +23,7 @@ public class Dictionary implements Serializable {
         this.words = words;
     }
 
-    public void saveToFile(String outputFile) throws IOException {
+    public void saveToBinFile(String outputFile) throws IOException {
         try (ObjectOutputStream outputStream = new ObjectOutputStream((new FileOutputStream(outputFile)))) {
             outputStream.writeObject(this);
         } catch (FileNotFoundException e1) {
@@ -33,7 +33,7 @@ public class Dictionary implements Serializable {
         }
     }
 
-    public static Dictionary createFromFile(String inputFilePath) throws ClassNotFoundException, IOException {
+    public static Dictionary createFromBinFile(String inputFilePath) throws ClassNotFoundException, IOException {
         try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(inputFilePath))) {
             Dictionary dictionaryFromFile = (Dictionary) inputStream.readObject();
             return dictionaryFromFile;
@@ -50,6 +50,10 @@ public class Dictionary implements Serializable {
 
     public String getTitle() {
         return title;
+    }
+
+    public boolean contains(String word){
+        return words.contains(word.toLowerCase());
     }
 
     @Override
