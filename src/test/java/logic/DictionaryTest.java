@@ -66,7 +66,7 @@ class DictionaryTest {
     }
 
     @Test
-    public void getWords_should_returnTreeSetOfWordsInDictionary(){
+    public void getWords_should_returnTreeSetOfWordsInDictionary() {
         TreeSet<String> expectedWords = new TreeSet<>();
         expectedWords.add("words");
         expectedWords.add("in");
@@ -76,19 +76,19 @@ class DictionaryTest {
     }
 
     @Test
-    public void getTitle_should_returnDictionaryTitle(){
+    public void getTitle_should_returnDictionaryTitle() {
         assertEquals(title, dictionary.getTitle());
     }
 
     @Test
-    public void contains_should_returnTrue_when_dictionaryContainsGivenWord(){
+    public void contains_should_returnTrue_when_dictionaryContainsGivenWord() {
         String expectedWord = "expected";
         dictionary.add(expectedWord);
         assertTrue(dictionary.contains(expectedWord));
     }
 
     @Test
-    public void contains_should_returnFalse_when_dictionaryDoesNotContainGivenWord(){
+    public void contains_should_returnFalse_when_dictionaryDoesNotContainGivenWord() {
         String notAddedWord = "not_added";
         assertFalse(dictionary.contains(notAddedWord));
     }

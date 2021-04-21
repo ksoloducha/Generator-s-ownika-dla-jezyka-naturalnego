@@ -54,16 +54,16 @@ class FileManagerTest {
     }
 
     @Test
-    public void saveWordsToFile_should_throwIOException_when_fileCanNotBeCreated(){
+    public void saveWordsToFile_should_throwIOException_when_fileCanNotBeCreated() {
         String path = "nonexistent_folder" + File.separator + "output_file.txt";
         Dictionary dictionary = new Dictionary("Dictionary to file");
         assertThrows(IOException.class, () -> {
-           fileManager.saveWordsToFile(dictionary, path);
+            fileManager.saveWordsToFile(dictionary, path);
         });
     }
 
     @Test
-    public void saveWordsToFile_should_saveWordsFromDictionaryToFile_when_given_correctPath(){
+    public void saveWordsToFile_should_saveWordsFromDictionaryToFile_when_given_correctPath() {
         String title = "Example dictionary to file";
         Dictionary dictionary = new Dictionary(title);
         path += File.separator + dictionary.getTitle().toLowerCase().replaceAll("[\\s]", "_") + ".txt";
@@ -75,21 +75,18 @@ class FileManagerTest {
         wordsToDictionary.add("write");
         wordsToDictionary.add("in");
         wordsToDictionary.add("file");
-        for(String word : wordsToDictionary){
+        for (String word : wordsToDictionary) {
             dictionary.add(word);
         }
-        try{
+        try {
             fileManager.saveWordsToFile(dictionary, path);
             Scanner scan = new Scanner(new File(path));
-            for(String word : wordsToDictionary){
+            for (String word : wordsToDictionary) {
                 assertEquals(word, scan.nextLine());
             }
-        } catch(IOException e){
+        } catch (IOException e) {
             System.out.println(e.getLocalizedMessage());
         }
-
-
-
 
 
     }

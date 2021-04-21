@@ -52,7 +52,7 @@ public class Dictionary implements Serializable {
         return title;
     }
 
-    public boolean contains(String word){
+    public boolean contains(String word) {
         return words.contains(word.toLowerCase());
     }
 

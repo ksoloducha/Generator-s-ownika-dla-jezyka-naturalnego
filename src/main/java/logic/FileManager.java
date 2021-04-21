@@ -15,10 +15,15 @@ public class FileManager {
             if (!scanner.hasNext()) {
                 throw new EmptyFileException("Input file is empty");
             }
-            Dictionary dictionaryFromFile = new Dictionary(scanner.nextLine());
+            String title = "";
+            while (title == "") {
+                title = scanner.nextLine().trim();
+            }
+            Dictionary dictionaryFromFile = new Dictionary(title);
             while (scanner.hasNext()) {
                 String word = scanner.next().replaceAll("[\\p{Punct}]", "");
-                dictionaryFromFile.add(word);
+                if (word != "")
+                    dictionaryFromFile.add(word);
             }
             return dictionaryFromFile;
         } catch (IOException e) {
