@@ -22,13 +22,17 @@ class DictionaryTest {
     @Test
     public void saveToFile_should_saveTitleAndWordsToGivenFile_when_givenCorrectPath() {
         String outputFileName = path + File.separator + "out.bin";
+        File file = new File(outputFileName);
+        file.delete();
         dictionary.add("Some", "sample", "words", "to", "test");
         try {
             dictionary.saveToBinFile(outputFileName);
-        } catch (FileNotFoundException e1) {
+        } catch (FileExistsException e1) {
             System.out.println(e1.getLocalizedMessage());
-        } catch (IOException e2) {
+        } catch (FileNotFoundException e2) {
             System.out.println(e2.getLocalizedMessage());
+        } catch (IOException e3) {
+            System.out.println(e3.getLocalizedMessage());
         }
         File testOutput = new File(outputFileName);
         assertTrue(testOutput.exists());
@@ -43,17 +47,29 @@ class DictionaryTest {
     }
 
     @Test
+    public void saveToFile_should_throwFileExistsException_when_fileAlreadyExists() {
+        String outputFileName = path + File.separator + "out.bin";
+        assertThrows(FileExistsException.class, () -> {
+            dictionary.saveToBinFile(outputFileName);
+        });
+    }
+
+    @Test
     public void createFromFile_should_createDictionaryFromFile_when_correctFileExists() {
         String outputFileName = path + File.separator + "out.bin";
+        File file = new File(outputFileName);
+        file.delete();
         dictionary.add("Some", "sample", "words", "to", "test");
         try {
             dictionary.saveToBinFile(outputFileName);
             Dictionary dictionaryFromFile = Dictionary.createFromBinFile(outputFileName);
             assertEquals(dictionary, dictionaryFromFile);
-        } catch (FileNotFoundException | ClassNotFoundException e1) {
+        } catch (FileExistsException e1) {
             System.out.println(e1.getLocalizedMessage());
-        } catch (IOException e2) {
+        } catch (FileNotFoundException | ClassNotFoundException e2) {
             System.out.println(e2.getLocalizedMessage());
+        } catch (IOException e3) {
+            System.out.println(e3.getLocalizedMessage());
         }
     }
 

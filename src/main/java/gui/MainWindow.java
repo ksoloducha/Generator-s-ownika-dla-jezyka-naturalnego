@@ -2,6 +2,7 @@ package gui;
 
 import logic.Dictionary;
 import logic.EmptyFileException;
+import logic.FileExistsException;
 import logic.FileManager;
 
 import javax.swing.*;
@@ -228,9 +229,14 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
                         while ((text = reader.readLine()) != null) {
                             wordList.append(text + "\n");
                         }
-                    } catch (IOException e) {
+                        showInformationDialog("Lista słów została zapisana w katalogu word_lists", "Lsta słów " + dictionary.getTitle());
+                    } catch (FileExistsException e1) {
+                        showErrorDialog("Plik o nazwie " + dictionary.getTitle() + ".txt już istnieje", "Error");
+                    } catch (IOException e2) {
                         showErrorDialog("Wystąpił błąd podczas tworzenia pliku", "Error");
                     }
+                } else {
+                    showErrorDialog("Błąd! Brak słownika", "Error");
                 }
                 break;
             case "create bin file":
@@ -238,9 +244,14 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
                     String outputFilePath = "bin_dictionaries" + File.separator + dictionary.getTitle() + ".ser";
                     try {
                         dictionary.saveToBinFile(outputFilePath);
-                    } catch (IOException e) {
+                        showInformationDialog("Słownik został zapisany w katalogu bin_dictionaries", "Binarny słownik " + dictionary.getTitle());
+                    } catch (FileExistsException e1) {
+                        showErrorDialog("Plik o nazwie " + dictionary.getTitle() + ".ser już istnieje", "Error");
+                    } catch (IOException e2) {
                         showErrorDialog("Wystąpił błąd podczas tworzenia pliku", "Error");
                     }
+                } else {
+                    showErrorDialog("Błąd! Brak słownika", "Error");
                 }
                 break;
             case "help":
@@ -252,7 +263,7 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
     private void dictionaryCreation(boolean success) {
         if (success) {
             dictionaryCreated = true;
-            dictionaryCreatedLabel.setText("Słownik utworzony");
+            dictionaryCreatedLabel.setText("Słownik \"" + dictionary.getTitle() + "\" utworzony");
             dictionaryCreatedLabel.setForeground(Color.GREEN);
         } else {
             dictionaryCreated = false;
@@ -316,9 +327,9 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
             if (n != 1) {
                 showErrorDialog("Należy podać jedno słowo", "Error");
             } else if (dictionary.contains(word)) {
-                showInformationDialog("Słownik " + dictionary.getTitle() + " zawiera słowo " + word, "Wyniki wyszukiwania słowa");
+                showInformationDialog("Słownik \"" + dictionary.getTitle() + "\" zawiera słowo " + word, "Wyniki wyszukiwania słowa");
             } else {
-                showInformationDialog("Słownik " + dictionary.getTitle() + " nie zawiera słowa " + word, "Wyniki wyszukiwania słowa");
+                showInformationDialog("Słownik \"" + dictionary.getTitle() + "\" nie zawiera słowa " + word, "Wyniki wyszukiwania słowa");
             }
         } else if (!dictionaryCreated) {
             showErrorDialog("Błąd! Brak słownika", "Error");

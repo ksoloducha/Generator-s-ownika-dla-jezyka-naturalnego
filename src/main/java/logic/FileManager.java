@@ -31,8 +31,12 @@ public class FileManager {
         }
     }
 
-    public void saveWordsToFile(Dictionary dictionaryToSave, String outputFilePath) throws IOException {
+    public void saveWordsToFile(Dictionary dictionaryToSave, String outputFilePath) throws FileExistsException, IOException {
         try {
+            File outputFile = new File(outputFilePath);
+            if (outputFile.exists()) {
+                throw new FileExistsException("Given filename already exists");
+            }
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
             TreeSet<String> words = dictionaryToSave.getWords();
             for (String word : words) {

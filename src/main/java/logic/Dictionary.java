@@ -19,11 +19,11 @@ public class Dictionary implements Serializable {
         }
     }
 
-    public void setWords(TreeSet<String> words) {
-        this.words = words;
-    }
-
-    public void saveToBinFile(String outputFile) throws IOException {
+    public void saveToBinFile(String outputFile) throws FileExistsException, IOException {
+        File outFile = new File(outputFile);
+        if (outFile.exists()) {
+            throw new FileExistsException("Given filename already exists");
+        }
         try (ObjectOutputStream outputStream = new ObjectOutputStream((new FileOutputStream(outputFile)))) {
             outputStream.writeObject(this);
         } catch (FileNotFoundException e1) {
