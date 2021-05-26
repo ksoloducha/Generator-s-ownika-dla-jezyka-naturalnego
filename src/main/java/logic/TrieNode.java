@@ -88,7 +88,10 @@ public class TrieNode implements Serializable {
 
     @Override
     public int hashCode() {
-        int hash = 17 * letter.hashCode() + 19 * children.hashCode();
+        int hash = 19 * children.hashCode()/* + 17 * letter.hashCode()*/;
+        if (letter != null) {
+            hash += 17 * letter.hashCode();
+        }
         return hash;
     }
 
@@ -101,10 +104,14 @@ public class TrieNode implements Serializable {
         if (getClass() != other.getClass())
             return false;
         TrieNode otherNode = (TrieNode) other;
-        if (!(letter == otherNode.letter)) {
+        if (!children.equals(otherNode.children)) {
             return false;
-        } else if (!children.equals(otherNode.children))
+        }
+        if (letter == null && otherNode.letter == null) {
+            return true;
+        } else if (!letter.equals(otherNode.letter)) {
             return false;
+        }
         return true;
     }
 }

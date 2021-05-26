@@ -3,5 +3,4 @@ file
 in
 some
 to
-words
-write
+w -ords; -rite;

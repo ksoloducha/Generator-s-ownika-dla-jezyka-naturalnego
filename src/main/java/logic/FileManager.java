@@ -1,9 +1,6 @@
 package logic;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.TreeSet;
@@ -43,6 +40,31 @@ public class FileManager {
             writer.close();
         } catch (IOException e) {
             throw e;
+        }
+    }
+
+    public void saveToBinFile(String outputFile, Dictionary dictionary) throws FileExistsException, IOException {
+        File outFile = new File(outputFile);
+        if (outFile.exists()) {
+            throw new FileExistsException("Given filename already exists");
+        }
+        try (ObjectOutputStream outputStream = new ObjectOutputStream((new FileOutputStream(outputFile)))) {
+            outputStream.writeObject(dictionary);
+        } catch (FileNotFoundException e1) {
+            throw e1;
+        } catch (IOException e2) {
+            throw e2;
+        }
+    }
+
+    public static Dictionary createFromBinFile(String inputFilePath) throws ClassNotFoundException, IOException {
+        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(inputFilePath))) {
+            Dictionary dictionaryFromFile = (Dictionary) inputStream.readObject();
+            return dictionaryFromFile;
+        } catch (FileNotFoundException | ClassNotFoundException e1) {
+            throw e1;
+        } catch (IOException e2) {
+            throw e2;
         }
     }
 }

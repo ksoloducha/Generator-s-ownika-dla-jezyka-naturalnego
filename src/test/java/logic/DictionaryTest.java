@@ -20,73 +20,8 @@ class DictionaryTest {
     }
 
     @Test
-    public void saveToFile_should_saveTitleAndWordsToGivenFile_when_givenCorrectPath() {
-        String outputFileName = path + File.separator + "out.bin";
-        File file = new File(outputFileName);
-        file.delete();
-        dictionary.add("Some", "sample", "words", "to", "test");
-        try {
-            dictionary.saveToBinFile(outputFileName);
-        } catch (FileExistsException e1) {
-            System.out.println(e1.getLocalizedMessage());
-        } catch (FileNotFoundException e2) {
-            System.out.println(e2.getLocalizedMessage());
-        } catch (IOException e3) {
-            System.out.println(e3.getLocalizedMessage());
-        }
-        File testOutput = new File(outputFileName);
-        assertTrue(testOutput.exists());
-    }
-
-    @Test
-    public void saveToFile_should_throwFileNotFountException_when_pathToOutputFileIsIncorrect() {
-        String outputFileName = path + File.separator + "nonexistent_directory" + File.separator + "out.bin";
-        assertThrows(FileNotFoundException.class, () -> {
-            dictionary.saveToBinFile(outputFileName);
-        });
-    }
-
-    @Test
-    public void saveToFile_should_throwFileExistsException_when_fileAlreadyExists() {
-        String outputFileName = path + File.separator + "out.bin";
-        assertThrows(FileExistsException.class, () -> {
-            dictionary.saveToBinFile(outputFileName);
-        });
-    }
-
-    @Test
-    public void createFromFile_should_createDictionaryFromFile_when_correctFileExists() {
-        String outputFileName = path + File.separator + "out.bin";
-        File file = new File(outputFileName);
-        file.delete();
-        dictionary.add("Some", "sample", "words", "to", "test");
-        try {
-            dictionary.saveToBinFile(outputFileName);
-            Dictionary dictionaryFromFile = Dictionary.createFromBinFile(outputFileName);
-            assertEquals(dictionary, dictionaryFromFile);
-        } catch (FileExistsException e1) {
-            System.out.println(e1.getLocalizedMessage());
-        } catch (FileNotFoundException | ClassNotFoundException e2) {
-            System.out.println(e2.getLocalizedMessage());
-        } catch (IOException e3) {
-            System.out.println(e3.getLocalizedMessage());
-        }
-    }
-
-    @Test
-    public void createFromFile_should_throwFileNotFountException_when_pathToOutputFileIsIncorrect() {
-        String outputFileName = path + File.separator + "nonexistent_directory" + File.separator + "out.bin";
-        assertThrows(FileNotFoundException.class, () -> {
-            dictionary.createFromBinFile(outputFileName);
-        });
-    }
-
-    @Test
     public void getWords_should_returnTreeSetOfWordsInDictionary() {
-        TreeSet<String> expectedWords = new TreeSet<>();
-        expectedWords.add("words");
-        expectedWords.add("in");
-        expectedWords.add("tree");
+        String expectedWords = "in\ntree\nwords\n";
         dictionary.add("words", "in", "tree");
         assertEquals(expectedWords, dictionary.getWords());
     }

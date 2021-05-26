@@ -20,7 +20,7 @@ public class Dictionary implements Serializable {
         }
     }
 
-    public void saveToBinFile(String outputFile) throws FileExistsException, IOException {
+    /*public void saveToBinFile(String outputFile) throws FileExistsException, IOException {
         File outFile = new File(outputFile);
         if (outFile.exists()) {
             throw new FileExistsException("Given filename already exists");
@@ -43,7 +43,7 @@ public class Dictionary implements Serializable {
         } catch (IOException e2) {
             throw e2;
         }
-    }
+    }*/
 
     public String getWords() {
         return words.print();

@@ -141,4 +141,24 @@ public class Trie implements Serializable {
         }
         return suffix;
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 17 * root.hashCode() + 23;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (this == other)
+            return true;
+        if (other == null)
+            return false;
+        if (getClass() != other.getClass())
+            return false;
+        Trie otherNode = (Trie) other;
+        if (!(root.equals(otherNode.root)))
+            return false;
+        return true;
+    }
 }

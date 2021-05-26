@@ -205,7 +205,7 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
                 if (loadBinaryDictionaryResponse == JFileChooser.APPROVE_OPTION) {
                     String inputFilePath = binaryDictionaryChooser.getSelectedFile().getPath();
                     try {
-                        dictionary = Dictionary.createFromBinFile(inputFilePath);
+                        dictionary = fileManager.createFromBinFile(inputFilePath);
                         dictionaryCreation(true);
                     } catch (FileNotFoundException | ClassNotFoundException e1) {
                         showErrorDialog("Wystąpił błąd podczas otwierania pliku", "Error");
@@ -240,7 +240,7 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
                 if (dictionaryCreated) {
                     String outputFilePath = "bin_dictionaries" + File.separator + dictionary.getTitle() + ".ser";
                     try {
-                        dictionary.saveToBinFile(outputFilePath);
+                        fileManager.saveToBinFile(outputFilePath, dictionary);
                         showInformationDialog("Słownik został zapisany w katalogu bin_dictionaries", "Binarny słownik " + dictionary.getTitle());
                     } catch (FileExistsException e1) {
                         showErrorDialog("Plik o nazwie " + dictionary.getTitle() + ".ser już istnieje", "Error");
@@ -257,16 +257,16 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
         }
     }
 
-    private void showWordList(String outputFilePath){
-        try{
+    private void showWordList(String outputFilePath) {
+        try {
             BufferedReader reader = new BufferedReader(new FileReader(outputFilePath));
             String text = null;
             while ((text = reader.readLine()) != null) {
                 wordList.append(text + "\n");
             }
-        } catch(FileNotFoundException e1){
+        } catch (FileNotFoundException e1) {
             showErrorDialog("Wystąpił błąd podczas wczytywania listy słów", "Error");
-        } catch(IOException e2){
+        } catch (IOException e2) {
             showErrorDialog("Wystąpił błąd podczas wczytywania listy słów", "Error");
         }
 
