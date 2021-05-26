@@ -2,7 +2,6 @@ a -; -by; -ch; -fektowe; -ktorów; -ż;
 albo
 ale -; -m; -ż;
 altan -a; -ie;
-an
 angielsk -a; -iej;
 ani
 anioł -; -a;
@@ -10,18 +9,18 @@ artemizy
 arcy -dzielnie; -miła;
 b -uty; -ądź;
 ba -; -kier; -lansować; -rdzo; -wi; -łamutnie;
-bajkę
+bajkę -; -ż;
 bas -erunku; -zta;
 bez -; -bożny;
-bi -ałym; -gos; -je;
+bi -ałym; -gos;
 bie -gnie; -rze;
+bij -; -e;
 bior -ąc; -ę;
 bliskie
 bliż -ej; -sze;
 bo -; -giem; -isz; -m; -ska;
 bodajże -; -ś;
 boj -u; -ę;
-br
 bra -ć; -ł;
 bro -nię; -ń;
 by -; -le; -m; -ć;
@@ -61,7 +60,8 @@ cz -czo; -oła; -łowiek;
 czasami
 czart -; -a;
 czemuż
-czeg -oś; -óż;
+czegóż
+czego -; -ś;
 czeka -; -j; -ć; -ł;
 cześnik -; -a; -owi; -u;
 czu -prynie; -łością;
@@ -80,7 +80,6 @@ dalszym
 dalej
 dalek -a; -o;
 dawn -a; -e; -o;
-diab
 diabl -ik; -ą;
 diabł -a; -em;
 dla -; -boga; -tegom;
@@ -95,7 +94,8 @@ dop -adł; -ełniła;
 dos -konały; -yć;
 drgnął
 drodze
-drog -a; -ie; -ę;
+drog -a; -ę;
+drogi -; -e;
 drudzy
 drug -a; -iej;
 drzymał
@@ -107,31 +107,31 @@ dzie -cię; -dzicem; -sięć; -wosłębem; -ła; -ń;
 dzik -; -i;
 dłonie
 dłużej
-dług -oż; -ów;
-e -j; -tc;
+długów
+długo -; -ż;
+ej
+et -; -c;
 f -olwarki; -rancusku; -ugas;
 fi -rcykować; -u;
 g -ardźcie; -erwazy; -leba; -uzy; -wintówkę; -órę;
-gd
 gdy -; -ś;
-gdyby
+gdyby -; -m;
 gdzie -; -ś; -ż;
 giną
 gitar -a; -ze;
 go -; -rsza; -towa;
 godnego
-godzin
+godzin -; -ę;
 gr -ecka; -ożąc;
 gra -cko; -tulacją;
-granic
+granic -; -zny;
 grzbiet
 grzeczn -ie; -y;
 gł -ąb; -ębi;
-gło
 głos -; -em; -u;
 głow -a; -ą;
 głucha
-głupi
+głupi -; -o;
 h -ultaje; -ę;
 ha -; -jduka; -rcopf;
 hann -a; -y;
@@ -142,7 +142,6 @@ hołot -a; -y;
 i -; -ch; -m; -ść; -ż;
 id -zie; -ę;
 idź -; -cie; -że;
-in
 inacz -ej; -éj;
 inn -a; -e;
 j -ą; -ęzyku;
@@ -150,28 +149,26 @@ ja -; -sność; -śnie;
 jak -; -aś; -by;
 jakich
 jakie -; -ś; -ż;
-jakże
+jakże -; -m;
 je -go; -j; -mu; -no; -śli; -ździec; -żeli;
-jedząc
 jedn -ak; -ej; -o; -ą;
-jes
+jedz -; -ąc;
 jest
 jeste -m; -ś;
-jeszcze
+jeszcze -; -ć;
 jeńc -em; -ze;
 ju -tro; -ż;
-k
 ka -duka; -pelusz; -zać;
 kar -a; -ety; -k; -ty;
 kawa -lerstwa; -ł;
 każę
-każd -a; -ej; -ym; -ą;
+każd -a; -ej; -ą;
+każdy -; -m;
 każe -; -sz;
 ki -jami; -lku; -m;
 kielnie
 kiedy -; -ś;
 klar -a; -o; -y; -ze; -ą; -ę;
-ko
 kobi -ety; -éta;
 kocha -j; -m; -sz; -ć; -ła;
 kochan -ku; -y;
@@ -188,15 +185,16 @@ kończ -cie; -ono; -ąc;
 kr -oki; -użganku;
 krat -a; -ę;
 krewn -iaczka; -y;
-krz
 krze -sła; -śle;
 krzyk -iem; -ną;
 krótko
-krótki -ej; -m;
+krótkim
+krótkie -; -j;
 ksi -ążę; -ężna;
 kto
 któż
-któr -e; -ym; -zy;
+któr -e; -zy;
+który -; -m;
 ku -; -rcz;
 kul -ikach; -ą;
 kupi -ono; -ł;
@@ -204,7 +202,6 @@ kwi -at; -ta;
 kłótnie
 kłamliwy
 kład -zie; -łem;
-l
 la -becie; -sy;
 ledwie
 lec -i; -z;
@@ -214,8 +211,8 @@ liku
 lic -em; -ha;
 lorda
 los -em; -u;
-lu
-lub -e; -ość; -ym;
+lub -e; -ość;
+luby -; -m;
 ludźmi
 ludzi -; -e;
 mleko
@@ -241,7 +238,8 @@ moc -ium; -y;
 mog -ą; -ę;
 moj -a; -ą; -ę;
 moje -; -j;
-moż -eś; -na;
+można
+może -; -ś;
 mu -; -zy;
 mularz -e; -om; -y;
 mur -; -u; -ze;
@@ -252,9 +250,10 @@ my -ch; -mi; -szki;
 myl -i; -ę;
 myśl -eniu; -i;
 mój
-mógł
+mógł -; -by;
 mów -; -że;
-mówi -; -sz; -ąc; -ć; -ę;
+mówi -; -sz; -ć; -ę;
+mówią -; -c;
 mówił -am; -em;
 mą -; -dry; -ż;
 mę -drek; -stwo;
@@ -265,7 +264,6 @@ na -; -bierając; -gle; -zbyt;
 nad -; -toś; -zieję;
 nam -; -ową;
 nami -; -ętności;
-nap
 napa -da; -ści;
 napr -awia; -wiony; -zód;
 nar -obił; -zędzie;
@@ -281,7 +279,8 @@ niec -noty; -o;
 niech -; -aj; -cący;
 nieg -o; -łupi;
 niekon -iecznie; -tent;
-niem -iło; -u; -łody;
+niem -u; -łody;
+niemi -; -ło;
 niepo -koje; -trzebnym;
 niestary
 niesł -awie; -ychanie;
@@ -291,27 +290,30 @@ nigdy -; -ż;
 nik -ogo; -t;
 no -; -cy; -sie;
 nog -i; -ę;
-now -ej; -ą;
-o -; -gród; -na; -piekun;
+nową
+nowe -; -j;
+o -; -gród; -piekun;
 ob -ięcie; -oje;
 obe -cność; -jrzwszy;
 obr -acając; -onie;
-oc
 ochot -y; -ę;
 ocz -ach; -ów;
 od -; -biera; -dam; -ejściu; -miana; -powiedzi; -wdzięczyć; -y; -świeżyć;
 odchodz -i; -ąc;
 oj
+ojc -a; -iec;
 okulary
 okn -ach; -em; -ie; -o;
 okr -utnie; -ągłe;
+on -; -a;
 osobie
 ostr -ogi; -ze;
 ot -; -ruć; -wartej;
 ow -e; -ieczka;
 p -laga; -soty; -ustoty;
 pa -chą; -mięci; -sa;
-pan -; -a; -ie; -ów;
+pan -; -a; -ów;
+pani -; -e;
 papiery
 papkin -; -cześnik; -ie;
 papkina -; -mi;
@@ -325,7 +327,7 @@ piechotą
 pier -wsza; -ścienie;
 pio -ny; -run;
 pisać
-pistolet
+pistolet -; -ów;
 piękna
 piękne -; -j;
 po -; -częła; -rywczy; -śród;
@@ -344,7 +346,6 @@ pos -ieka; -tać; -uwa; -łem;
 potem
 potrafię
 potrzeb -ie; -ne;
-pow
 powicia
 powie -; -dz; -rzę; -sz;
 powt -arza; -órnie;
@@ -353,8 +354,9 @@ pozna -sz; -ć;
 połow -ie; -y;
 pr -ecz; -ędko;
 pra -cują; -gniemy;
-praw -ej; -ie; -o; -ych;
+praw -ie; -o; -ych;
 prawd -a; -zie; -ą;
+prawe -; -j;
 pro -cy; -gi; -porcją;
 prosty
 prosz -ą; -ę;
@@ -391,33 +393,28 @@ rejent -; -a;
 roboty
 roz -bójnikiem; -dzieleni; -ogniony; -ważyć;
 rozg -niotę; -łoszono;
-rozk
 rozkaz -ał; -y;
-rozkosz
+rozkosz -; -ą;
 rozmow -y; -ę;
 rozp -oczyna; -rawiać;
 rozum -iem; -ny; -u;
 ru -matyzmy; -szaj;
 ry -cerskiego; -zy;
 rzucony
-rze
-rzecz
+rzecz -; -y;
 rzekł -am; -eś;
 ró -g; -wnie;
 różdżk -a; -ę;
-rę
 ręc -e; -zyć;
 ręk -i; -ojeść; -u; -ę;
 s -am; -rogi; -ęk;
 schodzim
 scen -a; -y; -ę;
 sekret
-ser
 serc -a; -e;
 serwet -ą; -ę;
 si -ada; -ódma; -ę; -ły;
 sie -bie; -dzi;
-sk
 skr -ada; -obiąc;
 skry -cie; -ję;
 skąd -; -że;
@@ -433,9 +430,10 @@ spraw -cą; -ię; -ki; -y; -ę;
 sprzeczk -a; -i;
 spęd -zić; -ź;
 st -uka; -yczność; -ąd;
-sta -teczny; -ło;
+stateczny
 stan -ie; -ąwszy; -ę;
 star -a; -e; -y;
+stał -; -o;
 sto -; -i; -le; -sowany;
 stoł -em; -u; -y;
 strącę
@@ -463,7 +461,6 @@ szpad -y; -zie;
 są
 sąsiedzie
 sąsiad -a; -y;
-sł
 sło -dki; -ńcu;
 słow -a; -o;
 słu -dze; -ga;
@@ -471,8 +468,10 @@ słucha -; -j; -m; -ć;
 służ -bę; -ka;
 służący -ch; -mi;
 sły -chana; -szę;
-t -chórze; -fy; -ęga; -łumisz;
-ta -; -cy; -kże; -lerz; -muje; -ć;
+t -chórze; -fy; -łumisz;
+ta -; -cy; -lerz; -ć;
+tak -; -że;
+tam -; -uje;
 te -; -go; -mu; -n; -raz; -ż;
 tej -; -że;
 to -; -ż;
@@ -481,15 +480,14 @@ tobie -; -m;
 tr -ochę; -wać;
 tru -dzie; -pem;
 truchle -je; -ć;
-trz
 trza -ski; -śnie;
 trze -ba; -siesz;
-trzec -h; -ia;
+trzech
+trzeci -; -a;
 trzy -; -mał;
 tu -; -pet; -zin; -ż;
 twą
 twe -; -go; -j;
-two
 twoi -ch; -m;
 twoj -a; -ej; -ą;
 twy -ch; -mi;
@@ -497,9 +495,11 @@ ty -; -grys; -m; -ł;
 tyl -e; -ko;
 tyr -ana; -kotny;
 tysi -ąc; -ęcy;
+tę -; -ga;
 u -; -brany; -giąć; -tnie; -żywacie;
 udając
-uderz -ając; -enie; -jąc;
+uderz -enie; -jąc;
+uderza -; -jąc;
 układy
 ukryci -e; -u;
 umi -em; -lknie;
@@ -507,13 +507,16 @@ uni -osłem; -żony;
 up -icia; -rzedzając;
 upa -dnie; -rta;
 ura -zy; -żony;
-us -tek; -łuchałam;
+usłuchałam
+ust -; -ek;
 usz -ko; -y;
 uśmi -ał; -ech;
 w -; -ciąż; -lezie; -ulkan;
 wa -zkę; -ści; -ży;
 wacław -; -ie;
 was
+waszej
+waszmoś -cią; -ć;
 wd -owa; -ówką;
 wdzię -cznym; -ki;
 we -; -jrzenie; -ny; -zmę; -ź;
@@ -530,10 +533,9 @@ wierz -y; -ę;
 win -ien; -na;
 więc -; -ej; -éj;
 wk -rótce; -ładając;
-wo
 wojn -y; -ę;
 wol -a; -i; -ę;
-wołają
+wołają -; -c;
 wpadnie
 wprz -ody; -ódy;
 wr -ony; -óżą;
@@ -564,11 +566,10 @@ zac -hodzi; -znę;
 zal -edwie; -udniała;
 zam -ek; -iast; -yka;
 zamk -nąć; -u;
-zamę
 zamęc -ie; -zyłem;
 zamęści -a; -e;
 zap -owiedzi; -ytanie;
-zapał
+zapał -; -em;
 zapewne
 zapewni -a; -ć;
 zar -az; -ęczy;
@@ -599,9 +600,10 @@ zmiany
 zmieszany
 zmieni -; -sz;
 znowu
-zna -; -jdziesz; -kiem; -na; -sz;
+zna -; -jdziesz; -na; -sz;
 znaczy
 znaczn -e; -iejsze;
+znak -; -iem;
 zniecierpliwiony
 zniszcz -yć; -ę;
 zosta -je; -nie; -wił; -ć; -ń;
@@ -611,7 +613,6 @@ zw -ady; -lekać; -łoki;
 zwinę
 zwiększa -; -ć;
 zł -amany; -y;
-zło
 złot -o; -y;
 złoż -yć; -ę;
 ó -cz; -sma; -w;
@@ -619,7 +620,6 @@ złoż -yć; -ę;
 ł -adnie; -eb; -upią; -ydki; -zy;
 ło -skot; -try;
 łon -ie; -o;
-ś
 ściskam
 ścian -a; -ie;
 śl -edzia; -ub;
@@ -629,11 +629,12 @@ złoż -yć; -ę;
 śmiał -o; -y;
 śmie -chem; -je; -rci;
 śni -adanie; -egu;
-śpiew -; -am;
+śpiew
+śpiewa -; -m;
 śrebrne
 środk -a; -owi; -u;
 świędzą
-świat
+świat -; -em;
 świe -cie; -gotanie;
 źródłem
 ż -upanie; -wawo;

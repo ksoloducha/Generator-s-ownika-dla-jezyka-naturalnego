@@ -1,8 +1,6 @@
 package logic;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.TreeSet;
 
 public class Dictionary implements Serializable {
 
@@ -19,31 +17,6 @@ public class Dictionary implements Serializable {
             this.words.insert(word.toLowerCase());
         }
     }
-
-    /*public void saveToBinFile(String outputFile) throws FileExistsException, IOException {
-        File outFile = new File(outputFile);
-        if (outFile.exists()) {
-            throw new FileExistsException("Given filename already exists");
-        }
-        try (ObjectOutputStream outputStream = new ObjectOutputStream((new FileOutputStream(outputFile)))) {
-            outputStream.writeObject(this);
-        } catch (FileNotFoundException e1) {
-            throw e1;
-        } catch (IOException e2) {
-            throw e2;
-        }
-    }
-
-    public static Dictionary createFromBinFile(String inputFilePath) throws ClassNotFoundException, IOException {
-        try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(inputFilePath))) {
-            Dictionary dictionaryFromFile = (Dictionary) inputStream.readObject();
-            return dictionaryFromFile;
-        } catch (FileNotFoundException | ClassNotFoundException e1) {
-            throw e1;
-        } catch (IOException e2) {
-            throw e2;
-        }
-    }*/
 
     public String getWords() {
         return words.print();
@@ -72,7 +45,6 @@ public class Dictionary implements Serializable {
             return false;
         }
         Dictionary otherDictionary = (Dictionary) other;
-
         return otherDictionary.title.equals(this.title) && otherDictionary.words.equals(this.words);
     }
 }

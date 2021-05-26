@@ -12,7 +12,7 @@ anjel -i; -skie;
 bez
 boka
 bog -; -a; -iem; -urodzica;
-boży
+boży -; -ce;
 by -chom; -li;
 był -; -a; -o;
 chryste
@@ -21,14 +21,14 @@ człowie -cze; -ka;
 d -la; -omieściż; -uszy;
 da -j; -ć; -ł;
 diabłu
-diable
+diable -; -j;
 dzie -ci; -la;
 dziewic -a; -e;
 g -ospodzina; -rzeszne; -łosy;
 gdzie -; -ż;
 i -ma; -ż;
-jąż
 je -goż; -nże; -szcze; -zu;
+ją -; -ż;
 k -; -iryjelejzon; -mieciu; -ońca;
 kr -ew; -óla;
 kroluj -e; -ą;
@@ -40,9 +40,10 @@ matko
 mar -twych; -yja;
 mił -ość; -y;
 mo -cą; -dlitwę;
-n
 na -; -m; -pełń; -s;
 ni
+nie
+niebieskie -; -go;
 no -dze; -simy;
 o -; -bie; -djął;
 ot -e; -kupił; -yma;
@@ -51,12 +52,12 @@ pi -eczą; -rwego;
 po -; -byt; -djął; -tępienie;
 prawy
 pro -simy; -śmy;
-prz
 prze -byt; -kłoć; -lał; -z; -śpiał;
 przy -dał; -ima;
 ręce
-ra -czy; -jski; -ny;
+ra -czy; -ny;
 rad -ość; -ują;
+raj -; -ski;
 s -am; -kował; -obie; -puści;
 si -edzisz; -ę; -ły;
 st -arostę; -rożej;
@@ -69,7 +70,8 @@ t -ako; -egoż; -uć; -y;
 to
 tob -ie; -ą;
 trud -; -y;
-tw -ego; -orca;
+tworca
+twe -; -go;
 u -; -chowa; -słysz;
 w
 widzienie

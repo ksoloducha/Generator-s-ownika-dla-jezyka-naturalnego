@@ -88,7 +88,7 @@ public class TrieNode implements Serializable {
 
     @Override
     public int hashCode() {
-        int hash = 19 * children.hashCode()/* + 17 * letter.hashCode()*/;
+        int hash = 19 * children.hashCode();
         if (letter != null) {
             hash += 17 * letter.hashCode();
         }
