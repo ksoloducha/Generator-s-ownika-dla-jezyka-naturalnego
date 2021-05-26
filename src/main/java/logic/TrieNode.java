@@ -67,7 +67,6 @@ public class TrieNode implements Serializable {
         return true;
     }
 
-    //test
     public boolean containsPrefix() {
         if (hasChildren()) {
             for (TrieNode child : children.values()) {

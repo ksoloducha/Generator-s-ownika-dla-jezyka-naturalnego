@@ -136,4 +136,19 @@ class TrieNodeTest {
         node.addChild(childLetter);
         assertEquals(expectedChild, node.getChild(childLetter));
     }
+
+    @Test
+    public void containsPrefix_should_returnFalse_when_nodesChildrenArentPrefixes() {
+        node.addChild('l');
+        node.getChild('l').addChild('a');
+        assertFalse(node.containsPrefix());
+    }
+
+    @Test
+    public void containsPrefix_should_returnTrue_when_anyNodesChildIsPrefix() {
+        node.addChild('l');
+        node.getChild('l').addChild('a');
+        node.getChild('l').addChild('e');
+        assertTrue(node.containsPrefix());
+    }
 }
