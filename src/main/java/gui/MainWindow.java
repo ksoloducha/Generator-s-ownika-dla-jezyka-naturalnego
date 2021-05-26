@@ -224,14 +224,11 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
                     String outputFilePath = "word_lists" + File.separator + dictionary.getTitle() + ".txt";
                     try {
                         fileManager.saveWordsToFile(dictionary, outputFilePath);
-                        BufferedReader reader = new BufferedReader(new FileReader(outputFilePath));
-                        String text = null;
-                        while ((text = reader.readLine()) != null) {
-                            wordList.append(text + "\n");
-                        }
                         showInformationDialog("Lista słów została zapisana w katalogu word_lists", "Lsta słów " + dictionary.getTitle());
+                        showWordList(outputFilePath);
                     } catch (FileExistsException e1) {
-                        showErrorDialog("Plik o nazwie " + dictionary.getTitle() + ".txt już istnieje", "Error");
+                        showInformationDialog("Plik o nazwie " + dictionary.getTitle() + ".txt już istnieje", "Lista słów");
+                        showWordList(outputFilePath);
                     } catch (IOException e2) {
                         showErrorDialog("Wystąpił błąd podczas tworzenia pliku", "Error");
                     }
@@ -258,6 +255,21 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
                 showHelp();
                 break;
         }
+    }
+
+    private void showWordList(String outputFilePath){
+        try{
+            BufferedReader reader = new BufferedReader(new FileReader(outputFilePath));
+            String text = null;
+            while ((text = reader.readLine()) != null) {
+                wordList.append(text + "\n");
+            }
+        } catch(FileNotFoundException e1){
+            showErrorDialog("Wystąpił błąd podczas wczytywania listy słów", "Error");
+        } catch(IOException e2){
+            showErrorDialog("Wystąpił błąd podczas wczytywania listy słów", "Error");
+        }
+
     }
 
     private void dictionaryCreation(boolean success) {

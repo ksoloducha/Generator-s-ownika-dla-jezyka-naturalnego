@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.TreeSet;
 
@@ -38,10 +39,7 @@ public class FileManager {
                 throw new FileExistsException("Given filename already exists");
             }
             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
-            TreeSet<String> words = dictionaryToSave.getWords();
-            for (String word : words) {
-                writer.write(word + "\n");
-            }
+            writer.write(dictionaryToSave.getWords());
             writer.close();
         } catch (IOException e) {
             throw e;

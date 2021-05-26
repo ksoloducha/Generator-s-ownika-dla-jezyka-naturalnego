@@ -1,9 +1,4 @@
-1
-10
-11
-12
-13
-14
+1 -; -0; -1; -2; -3; -4;
 2
 3
 4
@@ -12,177 +7,81 @@
 7
 8
 9
-a
-adamie
-aliż
-amen
-anjeli
-anjelskie
-aza
+a -; -damie; -liż; -men; -za;
+anjel -i; -skie;
 bez
-bog
-boga
-bogiem
-bogurodzica
 boka
+bog -; -a; -iem; -urodzica;
 boży
-bożyce
-bychom
-byli
-był
-była
-było
+by -chom; -li;
+był -; -a; -o;
 chryste
-ciebie
-cirzpiał
-człowiecze
-człowieka
-daj
-dać
-dał
-diable
-diablej
+ci -ebie; -rzpiał;
+człowie -cze; -ka;
+d -la; -omieściż; -uszy;
+da -j; -ć; -ł;
 diabłu
-dla
-domieściż
-duszy
-dzieci
-dziela
-dziewica
-dziewice
-gdzie
-gdzież
-gospodzina
-grzeszne
-głosy
-ima
-iż
-jegoż
-jenże
-jeszcze
-jezu
-ją
+diable
+dzie -ci; -la;
+dziewic -a; -e;
+g -ospodzina; -rzeszne; -łosy;
+gdzie -; -ż;
+i -ma; -ż;
 jąż
-k
-kiryjelejzon
-kmieciu
-końca
-krew
-kroluje
-krolują
-kry
-kryst
-krzciciela
-krześcijany
-króla
+je -goż; -nże; -szcze; -zu;
+k -; -iryjelejzon; -mieciu; -ońca;
+kr -ew; -óla;
+kroluj -e; -ą;
+kry -; -st;
+krz -ciciela; -eścijany;
 lud
-martwych
-maryja
-matko
-miłość
-miły
-mocą
-modlitwę
 myśli
-na
-nam
-napełń
-nas
+matko
+mar -twych; -yja;
+mił -ość; -y;
+mo -cą; -dlitwę;
+n
+na -; -m; -pełń; -s;
 ni
-nie
-niebieskie
-niebieskiego
-nodze
-nosimy
-o
-obie
-odjął
-ote
-otkupił
-otyma
-pieczą
-pirwego
+no -dze; -simy;
+o -; -bie; -djął;
+ot -e; -kupił; -yma;
 pkielnego
-po
-pobyt
-podjął
-potępienie
+pi -eczą; -rwego;
+po -; -byt; -djął; -tępienie;
 prawy
-prosimy
-prośmy
-przebyt
-przekłoć
-przelał
-przez
-prześpiał
-przydał
-przyima
-raczy
-radość
-radują
-raj
-rajski
-rany
+pro -simy; -śmy;
+prz
+prze -byt; -kłoć; -lał; -z; -śpiał;
+przy -dał; -ima;
 ręce
-sam
-siedzisz
-się
-siły
-skował
-sobie
-spuści
-starostę
-strożej
-swoj
-swą
-syn
-syna
-synka
-szli
-szwe
-szwyćcy
-szła
-sławiena
-słysz
-tako
-tegoż
+ra -czy; -jski; -ny;
+rad -ość; -ują;
+s -am; -kował; -obie; -puści;
+si -edzisz; -ę; -ły;
+st -arostę; -rożej;
+sw -oj; -ą;
+syn -; -a; -ka;
+sz -li; -ła;
+szw -e; -yćcy;
+sł -awiena; -ysz;
+t -ako; -egoż; -uć; -y;
 to
-tobie
-tobą
-trud
-trudy
-tuć
-twe
-twego
-tworca
-ty
-u
-uchowa
-usłysz
+tob -ie; -ą;
+trud -; -y;
+tw -ego; -orca;
+u -; -chowa; -słysz;
 w
 widzienie
-wiecu
-wiecznego
 wierzyż
-wspominął
-wstał
-wszego
-z
-za
-zastąpił
-zawierne
-zaśmierne
-zbawienie
-zbożny
-zdrowia
-zwidziało
-zwolena
-zyszczy
-złego
-złotem
-śmierć
-śrzebrzem
+wiec -u; -znego;
+ws -pominął; -tał; -zego;
+z -; -drowia; -yszczy;
+za -; -stąpił; -wierne; -śmierne;
+zb -awienie; -ożny;
+zw -idziało; -olena;
+zł -ego; -otem;
+ś -mierć; -rzebrzem;
 świecie
-święta
-świętą
+święt -a; -ą;
 żywocie

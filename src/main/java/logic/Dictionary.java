@@ -1,21 +1,22 @@
 package logic;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.TreeSet;
 
 public class Dictionary implements Serializable {
 
     private String title;
-    private TreeSet<String> words;
+    private Trie words;
 
     public Dictionary(String title) {
         this.title = title;
-        words = new TreeSet<>();
+        words = new Trie();
     }
 
     public void add(String... words) {
         for (String word : words) {
-            this.words.add(word.toLowerCase());
+            this.words.insert(word.toLowerCase());
         }
     }
 
@@ -44,8 +45,8 @@ public class Dictionary implements Serializable {
         }
     }
 
-    public TreeSet<String> getWords() {
-        return words;
+    public String getWords() {
+        return words.print();
     }
 
     public String getTitle() {
