@@ -1,0 +1,1291 @@
+1 -; -0; -1; -2; -3; -4; -5; -6; -7; -9;
+18 -; -40;
+2 -; -0; -1; -2; -3; -4; -5; -6; -7; -8; -9;
+3 -; -0; -1; -2; -3; -4; -5; -6; -7; -8;
+4
+5
+6
+7
+8
+9
+a -; -ch; -die;
+akurat -; -ny;
+ale
+ala -; -bastrowymi;
+albo -; -śmy;
+alkierz -a; -yka;
+amat
+amor -; -bożek; -ze;
+an -; -o;
+ani -; -eli; -ołem;
+ar -cyprzyjemą; -endarzu; -ka;
+at -; -mosfera;
+aż -; -e;
+bąki
+ba -b; -dań; -tem; -ć;
+baj -ecznie; -ą;
+bajk -a; -i;
+bar -dzo; -wnych;
+bas -; -ta; -uję; -y;
+bawi -; -om; -ę; -ła;
+bałamutny
+bałamuc -i; -twa;
+be -dzie; -rndżonsa; -z;
+bel -ki; -lerofon;
+bestyj -o; -ą;
+bi -tki; -ć;
+biał -ego; -ym; -ą;
+bie -gną; -lony;
+bied -a; -y; -ą;
+bierę
+bierz -; -e;
+bij -acki; -e; -ą;
+bio -drze; -rą;
+biurk -iem; -o;
+blad -sze; -ze;
+blisk -a; -i; -o;
+bo -; -hater; -iskiem; -ją; -ku; -m; -n; -rach;
+bocz -nej; -ą;
+bog -acić; -i; -u;
+bol -e; -i; -ów;
+boso
+boski -; -ej;
+botticell -ego; -i;
+boże -; -m;
+boży -m; -szcze;
+brodzi
+brać
+brali -; -śmy;
+brat -; -em; -ku; -u;
+brudz -ie; -ą;
+brząkła
+brzydzę
+brzydzi -; -j;
+brzękła
+brzęcz -enia; -y; -ą;
+brąz -owych; -ów;
+bu -duję; -tach; -zię;
+buc -iki; -zące;
+burz -; -y; -ę;
+by -; -m; -najmniej; -ć;
+byle -; -bym;
+byli -; -śmy;
+bywo
+bywa -ją; -ł;
+był -; -by; -o; -y;
+była -; -by;
+byłe -m; -ś;
+byś -; -cie; -my;
+bó -g; -l;
+będ -ą; -ę;
+będzie -; -m; -sz;
+błądzącą
+bło -cie; -gosławieniu; -to;
+błysk -a; -i;
+błękitna
+błędn -y; -ą;
+c -elu; -mentarzu;
+casem
+cał -a; -kiem; -uję;
+całe -; -j;
+całość
+całowa -nie; -łbym;
+cały -; -go; -m;
+ch -rzęści; -ustą; -yba;
+cha -; -cie; -dzam; -my; -ta; -łupa;
+chc -om; -ą; -ę;
+chce -; -cie; -my; -sz;
+chci -eć; -oł;
+chciał -; -by; -y;
+chciała -; -bym; -m;
+chciałe -m; -ś;
+chiny
+chińc -yki; -zyków;
+chmur -; -a; -ka; -nie;
+cholera
+chocia
+chochole
+chochoł -; -a; -em;
+chodz -i; -ę;
+choć -; -by;
+chwycił
+chwała
+chwale
+chwali -; -ć;
+chwalą -; -cy;
+chwilę
+chwilk -a; -ę;
+chłop -; -ców; -om; -y; -ów;
+chłopa -; -ch; -mi;
+chłopi
+chłopie -; -c;
+chłopk -a; -ą;
+chłopską
+chłopski -; -m;
+ci -; -cho; -ułam; -żby;
+ciarachy
+cias -ne; -to;
+cie -; -bie; -rpień; -wy; -ń; -śni;
+ciekaw -e; -i; -y;
+ciemn -a; -ej; -o; -ą;
+cien -iu; -ką;
+ciep -le; -ło;
+ciesz -; -ę;
+cioteczko
+ciotusieńk -a; -o;
+cis -ka; -zę;
+ciąg -le; -nąć;
+cię -; -giem; -żkiem;
+co -; -m; -raz; -si; -ś;
+cudze -; -go;
+cy -; -tomy;
+cz -terdziesty; -wartą; -ółko;
+czar -; -om; -t; -ującą; -ów;
+czarn -a; -e; -ą;
+czas -; -ami; -ie;
+czemuż
+czegóż
+czego -; -ż;
+czeka -; -ją;
+czepiec
+czepc -a; -em;
+czerwone
+czerp -a; -nie;
+czole
+czoło
+czoła -; -ch;
+czule
+czuj -e; -ę;
+czy -; -sty; -ście;
+czyj -e; -ąż;
+czym -; -ś;
+czyni
+czynsz -; -u;
+czyta -; -j; -łam;
+często -; -chowskiej;
+człek -; -owi;
+człowiek -; -iem;
+cóz
+córk -a; -i;
+cóż -; -eś;
+d -bo; -nia; -ąsa;
+da -dzą; -ć;
+daj -e; -ę;
+dali
+dalek -a; -o;
+dam -; -y; -ę;
+dar -emno; -ła;
+dawały
+dawn -a; -e; -iej; -ość;
+dawny -; -m;
+de -ch; -koracja;
+des -enie; -zczu;
+dla -; -tego;
+do -; -ciec; -da; -koła; -okoła; -tąd; -ść; -żynkowy;
+dobytą
+dobr -y; -ze;
+dobre -; -j;
+dobrodzi -ej; -j;
+dom -; -u; -yślają;
+dop -nie; -ust;
+dopie -kają; -ro;
+dor -osłam; -ówna;
+dosyć
+dosięg -a; -ło;
+dostojności
+dosta -nie; -ć;
+dr -wiąco; -ęczy; -żenie;
+dra -źni; -żniąca;
+dramat
+dramatyczn -e; -y;
+drewnian -e; -y;
+drogi
+drobn -e; -ostki;
+drugi -; -ej;
+druhn -a; -y;
+drużbą
+drużba -; -mi;
+drzyć
+drze -cie; -sz;
+drzew -; -a;
+drzwi -; -ami;
+duza
+duch -; -u; -y;
+dum -i; -nie;
+dus -a; -y;
+dusz -a; -e; -ko; -y;
+duż -ego; -o; -y;
+dw -a; -ór;
+dwor -u; -ze;
+dysponująca
+dym -; -y;
+dziś
+dziad -; -ka; -u;
+dzie -je; -sięć; -ń;
+dzieci -; -ątkiem;
+dziennika -; -rz;
+dziewczyn -a; -ożono;
+dziewi -cą; -ęćsetnym;
+dzisi -aj; -ejsza;
+dziw -ek; -iła; -ki; -y;
+dziwn -e; -ie; -o; -ymi;
+dziwo -; -ta;
+dzięk -i; -uję;
+dzwo -nią; -ńczy;
+dług -; -ach;
+długie -; -m;
+dźwigający
+dźwięczą
+dźwięk -; -ach;
+e -lektryczność; -mpire; -nsemble; -tykieta;
+f -iraneczką; -linty;
+fa -l; -ntazyją; -rby; -tyga;
+fe -erii; -ta;
+fosforyzuje
+for -mą; -tuną;
+fot -el; -ografia;
+g -inącej; -leba; -ust;
+ga -je; -sną; -zety; -śnie;
+gab -ilotce; -ne;
+gadu
+gada -; -ć;
+gala -nterią; -tea;
+gar -dzą; -ła;
+garn -iemy; -ą; -ęli;
+gdy
+gdyby -; -m;
+gdzie -; -ś;
+gnoju
+gna -; -li; -ć; -ło;
+gni -azdo; -otą;
+gniecie
+gniew -; -a; -y;
+go -; -towi; -łą; -ńczy; -ści;
+god -ność; -y;
+goda -mi; -ć;
+godo -cie; -s;
+godzi -; -n;
+goni -; -eniu; -ę;
+gorze
+gors -; -ecie;
+gorą -; -cości;
+gosposiu
+gospodars -ki; -twa;
+gospodarz -; -u; -yć;
+gospody -; -ni;
+gr -yźć; -ze; -ąży;
+gra -; -li; -m; -t;
+grajcy
+grajk -a; -i;
+grają -; -ca;
+grani -e; -tu; -u;
+gro -dzi; -t; -źny;
+grom -ada; -ki; -u;
+grosz -; -em; -y;
+gruchnoł
+grun -cie; -t;
+gwiazd -a; -y;
+gówna
+górą
+góra -; -ch;
+gładsze
+głosem
+głow -acki; -e; -ie; -y; -ą;
+głuch -o; -ych;
+główk -ą; -ę;
+głębi -; -nie;
+głębn -ej; -ą;
+głębok -iego; -o;
+h -istoria; -m;
+ha -; -łasu; -ń;
+han -del; -eczka; -ka;
+harbuza
+hart -; -u;
+he -j; -t;
+her -ezji; -os;
+ho -mera; -noru;
+hucz -ne; -y;
+hukne
+huka -; -ją;
+hukani -a; -u;
+hula -; -ją;
+i -; -ch; -i; -ść;
+id -ealne; -ą;
+idzie -; -m;
+im
+imię
+imieni -em; -u;
+in -dywidualista; -o;
+inks -i; -zy;
+inn -e; -i; -ym;
+insz -e; -om;
+inszy -; -ch;
+inteligentne
+interes -; -ie;
+interesuj -e; -ące;
+izb -; -a; -ie; -y; -ą;
+izbę -; -scenę;
+j -o; -ą;
+ja -; -błoni; -ponii; -rzących; -siek; -zdy;
+jacy -; -ś;
+jag -oda; -uś;
+jak -; -że;
+jaka -; -ś; -ż;
+jakby -; -m; -ś;
+jaki -; -ch; -ś;
+jakie -; -ś;
+jakiej -; -ś;
+jakim -; -ś;
+jako -; -by; -ś;
+jaką -; -ś;
+jaśminy
+jaśk -iem; -u;
+je -; -j; -mu; -no; -zusie;
+jed -en; -yna;
+jedn -o; -ym; -ą;
+jedna
+jednak -a; -owo;
+jednaki -; -e;
+jegomoś -ci; -ć;
+jeszcze
+jesce -; -śmy;
+jest
+jestem
+jesteś -; -my;
+jeś -li; -ć;
+jeźli -; -m;
+ju -cha; -rysta; -tro; -ści; -ż;
+juz -; -em;
+ję -czy; -to;
+jęk -; -nie;
+kędy
+ka -; -batów; -ci; -ftanów; -lenice; -ntyczki; -śka;
+kaj -; -gdzie; -si;
+karę
+karczm -ie; -y; -ę;
+kas -ie; -per;
+kaz -; -amat;
+każę
+każde -j; -mu; -n;
+każdy -; -m;
+ki -jakami; -m; -wa;
+kie -pskim; -rezyj; -szeni;
+kiedy -; -ś;
+kl -imina; -ucz;
+kla -rnet; -tce;
+ko -go; -zaczek;
+kobie -rca; -ta;
+kobit -a; -ą;
+kocha -; -m; -sz; -ć;
+kochani -a; -e; -u;
+kochał -a; -em;
+kol -ana; -umienkami; -ędzie;
+kolor -ach; -ów;
+kolorow -a; -y;
+komu
+komor -y; -ze;
+komple -ment; -t;
+kon -cypient; -kury; -systorza;
+konika
+konic -; -z;
+konie -; -c;
+kop -ki; -nąć;
+koralach
+koron -ie; -ą;
+kos -o; -ta; -y;
+kosz -em; -tuje; -uli;
+koło
+kołyska
+kołysa -niu; -ła;
+końc -a; -zy;
+kości
+kościel -e; -nej;
+kpać
+kpi -om; -ć;
+krąg
+kra -dne; -je; -kowa;
+krasy -; -ch;
+kre -w; -ślicie;
+kred -ens; -yt;
+kro -czy; -jem; -sna;
+kru -cho; -k;
+krwawiącego
+krwi -; -om;
+krz -aka; -yż;
+krzew -; -y;
+krój
+król -a; -owej; -ów;
+kręćcie
+kręci -cie; -ło;
+kręcą -; -ce;
+kształt
+ksiądz
+książ -ce; -ki;
+księdz -a; -u;
+kto -; -ś;
+któż
+któr -a; -e; -zy; -ą;
+który -; -ch; -m; -ś;
+ku -; -pe;
+kuchenne -; -j;
+kum -ie; -osiu;
+kurdesz -; -ami;
+kwa -rantannę; -śne;
+kwiat -; -ki; -y; -ów;
+kwit -a; -nącego;
+kół -; -eczko; -ko;
+ką -cie; -sać; -t;
+kłosów
+kłó -cą; -tnie;
+l -ód; -ęka;
+la -; -da; -lkę; -s;
+lamp -a; -y;
+lat -; -awiec; -o;
+le -; -dwo; -je; -kkim; -ntko; -piej; -żą;
+lecę
+leci -; -eć;
+lecz
+leczy -; -ć;
+limfa
+lic -; -a;
+lich -a; -o; -ą;
+liry -czne; -zm;
+lis
+list -; -opadowa;
+litograficzne
+litera -cki; -turze;
+lo -; -hengrin; -kach; -tni;
+los -; -y; -ów;
+lutni
+lubuje
+lubi -; -ą;
+lud -; -a;
+ludzi -; -e; -om; -skom;
+mąż
+ma -; -m; -ćka; -łe; -ści;
+macie -; -k;
+maje
+mają -; -ca;
+maleńkości
+malowan -a; -ką; -y;
+mar -a; -cinie; -kotni; -yna;
+marn -ie; -o;
+marzę
+marzy -; -ć; -łam;
+mas -ie; -z;
+mat -ki; -usią;
+matejkowski -ch; -ego;
+me -duza; -go; -j; -lodyjny;
+mgła -; -mi;
+mi -; -jać; -na; -odu; -tręga;
+mia -rkuję; -ta;
+miast -a; -owymi;
+miał -; -em;
+miała -; -m;
+mie -ni; -wam; -ć;
+mied -zę; -ź;
+mieliście
+miele -; -niu;
+mieszka
+miesi -ąca; -ęczną;
+mile -; -ńko;
+mił -a; -e; -y;
+miło
+miłoś -ci; -ć;
+ml -eka; -iko;
+mn -óstwem; -ą;
+mnie -; -jsi;
+mo -m; -wa;
+moc
+mocn -o; -y; -ą;
+mod -ern; -li;
+mog -iła; -li; -ę;
+moi -ch; -m; -ściewy;
+moja
+moje -; -j;
+mor -de; -ze;
+mos -; -iek; -ta;
+motykami
+motyl -; -e;
+mozno
+moze -; -s;
+można
+może -; -sz;
+mróz
+mro -czny; -k;
+mu -; -rów;
+musi -; -sz;
+musz -ą; -ę;
+muza
+muzyk -a; -ą; -ę;
+muśnie
+muślinow -ym; -ą;
+my
+myśmy
+myśl -; -e; -i; -ę;
+myślałem
+myślała -; -m;
+myśloł -; -em;
+mó -c; -głby; -j;
+mówi -; -cie; -ła;
+mętów
+męcąco
+męczy -; -ć;
+męk -ach; -ą;
+młyn
+młotem
+młod -a; -o; -szy; -y; -zi; -ą;
+młode -; -go; -j;
+nóżek
+na -; -iwne; -około; -wet;
+nad -; -a; -e; -przyrodzona;
+nag -le; -ła;
+naj -bardziej; -czulej; -dziesz; -gorszy; -milso; -pierwsze; -więcej;
+najs -zczersze; -łodszy;
+nakupie
+nako -chali; -le;
+nal -azł; -eży;
+nam -; -i;
+nap -owietrzne; -racowali;
+napa -lone; -trzcie;
+napi -eszczę; -szę;
+napła -cze; -kać;
+naraz
+narodow -o; -y;
+nas -; -łuchałam;
+nast -awali; -roiłem;
+nasz -; -a; -lochać; -ych; -ą;
+nasze -; -j; -mu;
+natur -y; -ze;
+natura -; -lne;
+nauk -a; -i;
+ni -; -ańczy; -by; -gdy; -jak; -osą; -tki; -ą;
+nic -; -h; -zego;
+nie -; -mi; -nasyceniec; -raz; -winne; -ładzie;
+nieb -awem; -ie; -otyczne;
+niech -; -aj; -cenia; -ta; -że;
+niej -; -edna;
+nieprzydatny
+niepo -koje; -zorne;
+nies -forny; -podziana; -zczęśliwą;
+nieś -miele; -wiadomie;
+nik -im; -ogo; -t;
+nim -; -fa;
+nis -cy; -ka;
+no
+noc -; -y;
+nog -i; -ą;
+nos -; -em;
+nosi -; -ć;
+now -a; -e; -oczesny;
+noż -em; -ycami;
+nu -; -dzą; -tę;
+nęci
+nędz -ach; -ę;
+o -; -fiarować; -łtarza; -żenić;
+ob -cesem; -ejmująca; -mył; -ok; -stoję; -śmiwajom;
+oba -j; -wę;
+oble -ciał; -wa;
+obrusem
+obraz -; -ach; -ek; -u;
+obrazk -iem; -owi;
+obraż -a; -ona;
+obłok -ami; -ów;
+ociec
+och -ronę; -łodzi;
+ocz -ach; -u; -y;
+od -; -arła; -ejdę; -jechać; -kwitnie; -lazuje; -mienia; -pocznienie; -słania; -wiążą;
+odb -icie; -ywało;
+odd -am; -echem;
+odgarnij
+odgad -nie; -łam;
+og -arek; -ień; -óle;
+ogrod -u; -zie;
+ogromn -a; -ie; -ą;
+ogromny -; -ch;
+ogród -; -ku;
+ojc -a; -iec; -ze;
+oklep
+okiem
+okienk -a; -o;
+okn -em; -ie;
+oko -; -lice; -ło;
+okr -utnie; -yty; -ągły;
+okropn -e; -ie;
+on -; -a; -e; -i;
+op -erze; -owiadań; -ustoszały;
+opar -ciem; -y;
+or -ki; -ęża;
+orze -; -ł;
+os -mętniały; -pałości; -ób;
+osobliwy
+osobn -e; -y;
+osta -nie; -tku;
+ostr -obramskiej; -z;
+ot -; -acza; -warte; -óż;
+oto -; -kiem;
+otul -a; -ony;
+owym
+owi -ną; -tą;
+oś -lep; -wiadczyć;
+p
+pa -dali; -lić; -pierów; -zuchą; -łubą; -ź;
+pamię -ci; -ta; -ć;
+pan -; -owie; -u; -y; -ów;
+pana -; -ście;
+pani -; -ą;
+panie
+panience
+panienk -a; -o; -ą;
+pann -a; -ie; -o; -y; -ą; -ę;
+par -; -afii; -ki; -ę;
+pas -; -ie; -ser; -twę; -y;
+patrz -; -ały; -cie; -eć; -ą; -ę;
+patrzy -; -my; -sie;
+pawi -ch; -e; -mi;
+pański -; -e;
+państw -o; -u;
+pe -dzieli; -lerynkę;
+pewien
+pewn -a; -ego; -ie; -o; -ym;
+pełen
+pełn -ej; -o;
+pi -kne; -lnujecie; -rso; -ć; -łą;
+piast -a; -ów;
+pieniądz
+piec -; -a;
+piekn -e; -ie;
+piekł -a; -o;
+pierze
+pierwsz -orzędny; -y;
+pierwsze -go; -j;
+pies -; -zcze;
+pieści -; -my;
+pijane
+piją -; -c;
+piosenki
+piorun -ami; -y;
+pisze
+pisa -nką; -ć; -ła;
+piska -; -nie;
+piór
+pióra -; -mi;
+pię -dzi; -ć; -ści;
+piękn -ej; -ie; -o;
+pląsa
+pla -my; -ny;
+ple -cie; -ć; -śni;
+po -; -budowania; -hańce; -ur;
+poczcie
+pocałuj -ę; -że;
+pochyloną
+pochwal -ony; -ę;
+pociąg
+pociesz -; -y;
+pod -; -miatać; -obno; -wójny; -ziękujże; -ź;
+podróż -ne; -uje;
+podskocznie
+podsłuch -ać; -y;
+poeta -; -mi;
+poety -; -czności;
+poezj -a; -i; -o; -ą; -ę;
+pog -apuje; -odny;
+poj -onby; -ęcie;
+pok -azać; -uszenie; -łońcie;
+poko -leniu; -rze;
+pol -a; -ezie;
+polityce
+polityk -; -ów;
+polo -nez; -ru;
+polsce
+polsk -a; -ą;
+polski -; -ej;
+pomów -; -ię;
+pon -; -ad;
+ponie -chane; -wiera;
+pop -atrzą; -ieści; -rzyjezdzali;
+por -ozwijać; -tret; -wie;
+pos -iali; -karżę; -politość; -uwisty; -wywoli; -łucha;
+posta -ciami; -ć;
+postawi -e; -ą;
+poszukajcie
+poszł -a; -ybyście;
+pot -; -em; -opy; -łukł;
+potańc -ować; -ujcie;
+potrz -a; -ebują;
+potęg -i; -ą;
+powodzi
+powi -; -nni;
+powie -m; -ści;
+powiedz -ieć; -że;
+powietrz -a; -e; -u;
+powr -otny; -ót;
+powt -arza; -órzyć;
+poz -azdrości; -nają;
+pozw -ala; -ijcie;
+pozwoli -; -ć;
+poł -owe; -udnie;
+poś -pione; -ród;
+pożytecznie
+pożali -ć; -ło;
+prędko
+pra -cy; -sk;
+pragnieni -e; -u;
+pragnął -; -em;
+prawie
+prawd -a; -ziwy;
+pretensj -ach; -i;
+pro -mieni; -wadzi; -zę; -śbę;
+proszę
+prost -a; -e; -o; -u; -y;
+przędziwo
+prze -boleć; -gląda; -inacza; -klęci; -ńdzie; -żyło;
+przecz
+przeciętne
+przecie -; -m; -rpieć; -ż;
+przed -; -się;
+przej -awić; -dą; -ęcie; -ść;
+przel -otnie; -ękła;
+przepa -da; -ść;
+przes -iąkła; -uną;
+przest -oi; -worze;
+przestaje
+przestała -; -bym;
+przeta -pia; -ńcuje;
+przez -; -iębi;
+przy -; -lepiona; -myka; -witali; -znać;
+przyb -asuje; -iegłam; -yszewski;
+przyc -hodzą; -iętej;
+przydź
+przyda
+przydarzy -; -ło;
+przyg -arniemy; -łuszający;
+przyjś
+przyjaciel -e; -u;
+przyjd -ą; -ź;
+przyjdz -e; -ie;
+przykład -; -em;
+przyn -ajmniej; -iesie;
+przyp -ięta; -omnieć;
+przypadków
+przypatruj -e; -om;
+przyro -da; -sła;
+przysłonione
+przysi -adam; -onku;
+przysta -nie; -wić;
+przysz -edł; -lę;
+przyszło
+przyszła -; -m;
+przyś -li; -ć;
+pró -chnie; -żność;
+ps -tre; -yche; -zenice;
+psi -; -e;
+psia -jucha; -krew;
+ptok
+ptak -; -a; -i; -owi;
+pu -dełek; -ka; -nkt; -stym;
+pułap -; -ce;
+pytacie
+pysk -; -iem; -u;
+później
+pójd -zie; -ę;
+pół -; -błękitu; -kole; -noc; -świetle;
+pę -draki; -ka;
+pługiem
+pła -ta; -ćcie;
+płac -ić; -ę;
+pło -mieni; -nie; -t;
+qui
+r -ączkę; -żnęli;
+ra -fę; -ił; -ją; -żone;
+racławic
+rachiel
+rachel -; -a; -ę;
+rad -; -a; -sze;
+radczy -mi; -ni;
+radoś -ci; -ć;
+ram -; -ię;
+ran -i; -o;
+raz -; -ie; -u; -y;
+re -daktor; -fleksja; -sztami;
+ro -dzonemu; -śnie;
+robi -; -ą;
+robot -a; -ę;
+rok -; -u;
+roki -; -em;
+rol -a; -i;
+roz -; -chodzi; -dmuchać; -lewności; -namiętnienia; -waga;
+rozbi -ją; -ł;
+rozk -az; -oszy;
+rozmait -a; -ym;
+rozmow -a; -y;
+rozp -atruję; -iro; -ostrzeć;
+rozt -ańczona; -erce; -oczy;
+rozumem
+rozumiecie
+rozumiem -; -y;
+rozś -piewana; -wiecona;
+ru -baszny; -isdala; -mot; -no; -sa;
+ruch -ać; -u;
+rwać
+rwie -; -my;
+ry -my; -sunek;
+rycer -ski; -z;
+rz -ondzom; -ądem;
+rze -kła; -pkę; -zańce; -śki; -ź;
+rzecz -; -ki; -y; -ą;
+rzuca -; -m;
+równ -e; -o;
+róż -; -e; -owa; -ę;
+róża -; -ch; -mi;
+różni
+różne -; -mu;
+ręce
+ręk -i; -ą;
+s -finks; -sają;
+sa -s; -telita;
+sad -; -u; -y;
+sal -i; -onowa;
+sam -; -a; -e; -i; -ych;
+samo -; -uki;
+sc -ena; -ęścia;
+sch -odzi; -yliła;
+se -; -n; -wcem;
+serio
+serc -a; -u;
+serce -; -m;
+serdeńko
+serdecznie
+serdeczny -; -m;
+serduszk -o; -u;
+si -atce; -wo;
+sie -; -bie; -je; -ni;
+sied -zę; -ź;
+się
+sięg -a; -nie;
+sił -a; -ą; -ę;
+sk -ibą; -lep; -ubią; -ładają;
+ska -cze; -zek;
+skal -; -a; -e; -ę;
+skali -; -sty;
+skar -ga; -żył;
+skocz -no; -yć;
+skor -a; -o;
+skr -obie; -ył;
+skrzeczy
+skrzynia
+skrzydeł -; -kowym;
+skrzydlat -e; -y;
+skrzydła -; -ch;
+skrzyp -ce; -iec;
+skór -e; -zana;
+skąd -; -że;
+smaku
+smutek
+smutn -a; -y;
+sna -dnie; -mi;
+snu -; -je;
+so -bie; -fa; -ir; -kolskim; -m;
+spłukiwał
+spa -li; -nie; -rzyć; -ć;
+spieszy -; -ć;
+spl -amiła; -otce;
+spo -cznij; -ro;
+spodziwo
+spodobał -; -a;
+spojrz -ała; -enia; -ę;
+spokój
+spokoj -na; -u;
+spop -iela; -ychali;
+spot -kania; -yka;
+spraw -ka; -y; -ę;
+sprawi -asz; -ę;
+spro -siłbym; -wadź; -ś;
+sprz -ątaniu; -ęty;
+sprzeciwio
+sprzeda -ję; -m;
+spu -dłować; -ści;
+spód -; -nica;
+sr -ebrną; -ogo;
+st -warza; -ąd;
+sta -; -ć;
+stan -ie; -u; -y;
+star -e; -y; -ą;
+staro -polskiego; -sta;
+sto -cył; -ją; -lik; -pi; -ć;
+stoi -; -my;
+stos -; -u;
+stoł -ach; -ki; -u;
+strój
+strac -hem; -ić;
+stras -no; -zny;
+stro -imy; -p;
+stroju
+stroje -; -m;
+strun -a; -ą;
+strzała
+strze -gę; -lać; -miennego;
+strzech -; -y;
+stuka
+studium
+studni -; -ę;
+styl -; -u;
+stó -p; -ł;
+su -cha; -rowy;
+suk -many; -ni;
+sukien -ką; -nicach;
+sut -a; -ym;
+sw -ego; -ym; -ój;
+swatem
+swata -li; -ła;
+swoi -; -m;
+swoj -a; -ą;
+swoje -; -go; -j;
+swojem -; -u;
+sy -pią; -rso; -ćko;
+syn -a; -ów;
+syt -o; -y;
+sz -koda; -ósty;
+sza -ble; -cie; -l;
+szaf -iru; -ę;
+szarawym
+szare -; -j;
+szcze -ka; -rze;
+szczyt -nie; -u;
+szczęść
+szczęścia
+szczęście -; -m;
+szczęśliw -a; -y; -ą;
+szepty
+szerok -i; -o;
+szorstki
+szop -a; -ka;
+sztuk -a; -i;
+szuka -; -my; -ć;
+szum
+szumi -; -ejąca;
+szumn -e; -ie; -y;
+szy -nkwasu; -ćko;
+szł -am; -y;
+są -; -siadujemy;
+sąd -em; -zi;
+sło -cie; -dyczy; -ty; -ńca;
+słom -a; -y; -ę;
+słomi -aną; -e;
+słow -a; -em; -iki;
+słucha -j; -m;
+słuszn -a; -ość;
+służ -ba; -yć;
+sły -chać; -szę;
+słówko
+słówe -czko; -k;
+t -le; -ną; -ą;
+ta -; -cy; -lerze; -te;
+tajemn -a; -icą;
+tak -; -a; -em; -o; -sa; -t; -ą; -że;
+taki -; -ch; -m; -ś; -ż;
+takie -; -go; -j; -m;
+tam -; -ci;
+tan -; -cerzy;
+tani -ec; -o;
+tańce
+tańcowa -niu; -ć; -ła;
+tańcuj -; -e; -ą;
+tańczą
+tańczy -; -ć;
+te -; -go; -j; -n; -ż;
+tem
+temps
+temperament -; -a;
+ter -az; -min; -oz;
+to -; -m; -rba; -warzyskiej; -ć; -ńca;
+tob -ie; -ą;
+toby -; -m;
+ton -; -em; -ie;
+topniał
+topi -; -eli;
+toś -; -cie;
+trwonię
+trafi -; -a; -ć;
+troch -a; -e; -ę;
+tru -ją; -mnie;
+trud -no; -zi;
+trzeba
+trza -; -sk;
+trzy
+trzyma -; -ją; -m;
+tu -; -potających; -rnie;
+tw -arzy; -ój;
+two -im; -rde;
+twoj -a; -e;
+ty -; -ch; -siąc; -taniczną; -z;
+tyl -e; -ko; -o; -u;
+tym -; -i;
+tę -; -czą; -py;
+tęskn -ej; -ota;
+tłumię
+tłocz -y; -ą;
+u -; -broczyć; -jrzę; -kąpane; -niesieniu; -łagodzi; -żyć;
+ucho
+ucie -c; -ka;
+uczył
+uczuci -a; -e;
+ud -ała; -zieli;
+umęczali
+umie -; -m; -ra; -szcze; -ści;
+up -artą; -od;
+urasta
+urod -zie; -ę;
+us -iada; -nąć;
+ustępować
+usta -; -wicznie;
+ustr -oić; -zec;
+usz -anować; -y;
+usł -ugach; -yszeć;
+ut -kanej; -onę;
+uw -aga; -ierzycie;
+w -; -koło; -tedy; -ąchać;
+wa -dze; -m; -łkiem;
+walczy
+wali -; -ć;
+warkocze
+wart -; -o;
+was
+wasz -ej; -ych;
+wc -ale; -zasu;
+wci -ska; -órności;
+wd -ał; -echam; -owa; -ycha;
+wdzi -ewam; -ęku;
+we -; -jść; -rnyhory;
+wesel -isko; -u;
+wesele -; -m;
+weselna
+weselny -ch; -mi;
+wesoł -a; -o;
+weź -; -mie;
+wi -; -m; -rujący; -ło;
+wiar -a; -ą;
+wicher
+wichr -; -ów;
+wid -ać; -ma; -ok;
+widz -enia; -ę;
+widzi -; -cie; -eć; -sz;
+widzia -dło; -łem;
+wie -; -niec; -sz;
+wiecie
+wiecz -yste; -ór;
+wied -niu; -zą;
+wiej -e; -ska;
+wiek -iem; -uisty;
+wiel -ce; -e; -można;
+wielk -a; -ość; -ą;
+wielki -; -ch; -m;
+wielkie -; -j;
+wiem -; -y;
+wierutna
+wiersz -e; -y;
+wierz -e; -y; -ę;
+wieś -; -ci;
+win -ni; -ę;
+wio -dą; -nie; -snę;
+wissom
+wisz -; -ę;
+wię -ksi; -zień;
+więc -; -ej;
+wnet
+wnu -czka; -k;
+wo -jna; -koło;
+wod -a; -ny; -y;
+wola -; -łaby;
+wole -; -ć;
+woli -; -sz;
+woln -a; -o;
+woła -; -nie;
+wp -ada; -ół;
+wprzód -y; -zi;
+wre
+wra -z; -żenia;
+wrz -awie; -ący;
+wróci -; -my;
+wschodzi
+wsi -; -osko; -ąka;
+wsk -azując; -oczyć;
+wst -ydzi; -ążek; -ęga;
+wsta -je; -ła;
+wszelakiego
+wszyscy
+wszystk -o; -ą;
+wszystki -ch; -m;
+wszystkie -; -go;
+wy -; -jątkowe; -licysie; -raźnie; -łania; -ście;
+wyb -lakła; -orze;
+wybie -lona; -rali;
+wyda -cie; -ją; -wała; -ła;
+wydrze -; -ć;
+wyglądacie
+wygod -ała; -zie;
+wyk -ol; -ształcona;
+wym -owa; -ówką;
+wyobra -źni; -żać;
+wypisanym
+wypr -awna; -óbować;
+wys -ypie; -zarzana; -łuchać;
+wysoko
+wysoki -ej; -m;
+wytwór
+wyta -rta; -ńcuje;
+wyw -leke; -róży;
+wyz -nam; -woleństwa; -ysk;
+wz -ajemnie; -biła; -lata; -niosło; -orzystej;
+wzię -cie; -li;
+wó -jcie; -r;
+wódź
+wódk -a; -ę;
+wła -zi; -śnie;
+własne -; -j;
+włos -cy; -y;
+włócz
+włóczy -; -cie;
+z -; -jawił; -szeregowani; -upełnie; -ysk;
+za -; -gadka; -leży; -niedbuje; -łagodzi; -żyć;
+zab -awka; -łysnąć;
+zabi -era; -ł;
+zabr -oni; -udni;
+zac -hwala; -znie;
+zaci -era; -szna;
+zad -arł; -ość; -źgali;
+zaj -rzy; -ął;
+zaję -ta; -ło;
+zakupiłbym
+zaklęt -y; -ą;
+zakocha
+zakochan -a; -i; -ą;
+zam -czysku; -ek; -ku; -rocył;
+zamia -st; -tają;
+zap -iera; -ychać;
+zapa -seczka; -trzeni;
+zapach -; -u;
+zapal -a; -ni; -ona; -ę;
+zapominać
+zapomną
+zapomnie -li; -niu;
+zapraszam
+zaproś -; -cie; -że;
+zapukać
+zapust -; -y;
+zapłaconych
+zapłaci -; -ć;
+zar -az; -umienia; -yte; -zucone; -ęczeni;
+zas -zły; -łuchani;
+zastałem
+zastaw -; -a; -ie;
+zat -arga; -em; -ruli; -łukli;
+zaw -dy; -lokłam; -zięty;
+zawi -nął; -łe;
+zawo -ju; -łanie;
+zawr -otem; -ót;
+zawsze -; -ć;
+zaz -drosna; -iębić;
+zb -eczeć; -ladnoł; -yt; -óż; -ędą;
+zbitej
+zbie -c; -ra;
+zboża -; -ch;
+zbro -dni; -i;
+zbroj -ej; -ą;
+zda -je; -nia;
+zdar -za; -łabym;
+zdolność
+zdob -ny; -yłem; -ęde;
+zdradzić
+zdroju
+zdrow -i; -o; -y;
+ze -; -by; -us; -zuj;
+zechce -; -sz;
+zegar -; -em;
+zes -iądzie; -umuje;
+zgniewają
+zgadni -esz; -j;
+zgarn -ie; -ą;
+zgrz -ałam; -eszy; -yt;
+ziobrach
+zie -la; -mi;
+zim -no; -ową;
+zlat -am; -ują;
+zm -ysły; -ówię;
+zmiarkować
+zmieści
+zmieni
+zmienia -; -ją;
+znów
+zna -; -czone; -m; -wca; -łem;
+znal -azłem; -i;
+zni -ka; -szczę;
+zno -m; -wu;
+zowąd
+zobaczy -; -ła;
+zos -ia; -tawia;
+zruci
+zro -bił; -zumi;
+zwa -dy; -la;
+zwi -edzie; -odła; -sła; -ędła;
+zwr -acam; -ócona;
+zwy -cięża; -kle;
+zła
+złe -; -go;
+zło -cony; -dzij; -żone;
+złom -; -i;
+złot -a; -o;
+złote -; -m;
+złoty -; -m;
+ć -my; -wika;
+ł -eb; -udzą; -yska; -za; -ąki; -żesz;
+ła -będziem; -komi; -nem;
+ładn -e; -y;
+ładnie -; -j;
+łaj -e; -ą;
+łaski
+łaskaw -; -em; -sze;
+ło -dzi; -kcie; -nie; -że;
+łóżka -; -ch;
+ś -karadne; -rodku; -tuki;
+ści -anie; -rwo;
+ścisk -; -u;
+ślepy
+śli -czne; -nkę; -pie;
+ślub -; -u;
+śmierć
+śmiał -o; -y;
+śni -eg; -ło;
+śpi
+śpiew -a; -y;
+śpiewn -ik; -ości;
+śpiąc -ych; -ą;
+świństwem
+świat -; -em; -u; -y; -łem;
+świetlicy
+świec -; -znikach; -ącymi;
+świeci -; -dełek; -e;
+śwież -a; -e;
+świs -nę; -ty;
+świt -; -a;
+święci -; -e;
+święt -a; -ość; -ą;
+święty
+świętym -; -i;
+źle
+źród -ełku; -ła;
+żurawiec
+ża -bek; -l;
+żar -; -nach;
+że -; -m;
+żeby -; -m;
+żeni -; -ć; -łabym;
+żeś -; -cie;
+żniw -a; -o;
+żon -e; -ę;
+ży -to; -łem;
+życi -a; -e;
+życz -y; -ę;
+żyd -; -a; -em; -owskich;
+żyw -a; -ią; -ą;
+żąd -a; -zą;

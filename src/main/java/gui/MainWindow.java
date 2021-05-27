@@ -176,77 +176,24 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
         String command = event.getActionCommand();
         switch (command) {
             case "load text file":
-                textFile.setText("");
-                wordList.setText("");
-                int textFileResponse = textFileChooser.showOpenDialog(this);
-                if (textFileResponse == JFileChooser.APPROVE_OPTION) {
-                    String inputFilePath = textFileChooser.getSelectedFile().getPath();
-                    try {
-                        dictionary = fileManager.read(inputFilePath);
-                        dictionaryCreation(true);
-                        BufferedReader reader = new BufferedReader(new FileReader(textFileChooser.getSelectedFile()));
-                        String text = null;
-                        while ((text = reader.readLine()) != null) {
-                            textFile.append(text + "\n");
-                        }
-                    } catch (EmptyFileException e1) {
-                        showErrorDialog("Wybrany plik jest pusty", "Error");
-                        dictionaryCreation(false);
-                    } catch (IOException e2) {
-                        showErrorDialog("Wystąpił błąd podczas otwierania pliku", "Error");
-                        dictionaryCreation(false);
-                    }
-                }
+                loadTextFile();
                 break;
             case "load binary dictionary":
-                textFile.setText("");
-                wordList.setText("");
-                int loadBinaryDictionaryResponse = binaryDictionaryChooser.showOpenDialog(this);
-                if (loadBinaryDictionaryResponse == JFileChooser.APPROVE_OPTION) {
-                    String inputFilePath = binaryDictionaryChooser.getSelectedFile().getPath();
-                    try {
-                        dictionary = fileManager.createFromBinFile(inputFilePath);
-                        dictionaryCreation(true);
-                    } catch (FileNotFoundException | ClassNotFoundException e1) {
-                        showErrorDialog("Wystąpił błąd podczas otwierania pliku", "Error");
-                        dictionaryCreation(false);
-                    } catch (IOException e2) {
-                        showErrorDialog("Wystąpił błąd podczas otwierania pliku", "Error");
-                        dictionaryCreation(false);
-                    }
-                }
+                loadBinaryFile();
                 break;
             case "find word":
                 searchWord();
                 break;
             case "generate word list":
                 if (dictionaryCreated) {
-                    String outputFilePath = "word_lists" + File.separator + dictionary.getTitle() + ".txt";
-                    try {
-                        fileManager.saveWordsToFile(dictionary, outputFilePath);
-                        showInformationDialog("Lista słów została zapisana w katalogu word_lists", "Lsta słów " + dictionary.getTitle());
-                        showWordList(outputFilePath);
-                    } catch (FileExistsException e1) {
-                        showInformationDialog("Plik o nazwie " + dictionary.getTitle() + ".txt już istnieje", "Lista słów");
-                        showWordList(outputFilePath);
-                    } catch (IOException e2) {
-                        showErrorDialog("Wystąpił błąd podczas tworzenia pliku", "Error");
-                    }
+                    saveWordList();
                 } else {
                     showErrorDialog("Błąd! Brak słownika", "Error");
                 }
                 break;
             case "create bin file":
                 if (dictionaryCreated) {
-                    String outputFilePath = "bin_dictionaries" + File.separator + dictionary.getTitle() + ".ser";
-                    try {
-                        fileManager.saveToBinFile(outputFilePath, dictionary);
-                        showInformationDialog("Słownik został zapisany w katalogu bin_dictionaries", "Binarny słownik " + dictionary.getTitle());
-                    } catch (FileExistsException e1) {
-                        showErrorDialog("Plik o nazwie " + dictionary.getTitle() + ".ser już istnieje", "Error");
-                    } catch (IOException e2) {
-                        showErrorDialog("Wystąpił błąd podczas tworzenia pliku", "Error");
-                    }
+                    saveBinFile();
                 } else {
                     showErrorDialog("Błąd! Brak słownika", "Error");
                 }
@@ -254,6 +201,75 @@ public class MainWindow extends JFrame implements ActionListener, KeyListener {
             case "help":
                 showHelp();
                 break;
+        }
+    }
+
+    private void loadTextFile() {
+        textFile.setText("");
+        wordList.setText("");
+        int textFileResponse = textFileChooser.showOpenDialog(this);
+        if (textFileResponse == JFileChooser.APPROVE_OPTION) {
+            String inputFilePath = textFileChooser.getSelectedFile().getPath();
+            try {
+                dictionary = fileManager.read(inputFilePath);
+                dictionaryCreation(true);
+                BufferedReader reader = new BufferedReader(new FileReader(textFileChooser.getSelectedFile()));
+                String text = null;
+                while ((text = reader.readLine()) != null) {
+                    textFile.append(text + "\n");
+                }
+            } catch (EmptyFileException e1) {
+                showErrorDialog("Wybrany plik jest pusty", "Error");
+                dictionaryCreation(false);
+            } catch (IOException e2) {
+                showErrorDialog("Wystąpił błąd podczas otwierania pliku", "Error");
+                dictionaryCreation(false);
+            }
+        }
+    }
+
+    private void loadBinaryFile() {
+        textFile.setText("");
+        wordList.setText("");
+        int loadBinaryDictionaryResponse = binaryDictionaryChooser.showOpenDialog(this);
+        if (loadBinaryDictionaryResponse == JFileChooser.APPROVE_OPTION) {
+            String inputFilePath = binaryDictionaryChooser.getSelectedFile().getPath();
+            try {
+                dictionary = fileManager.createFromBinFile(inputFilePath);
+                dictionaryCreation(true);
+            } catch (FileNotFoundException | ClassNotFoundException e1) {
+                showErrorDialog("Wystąpił błąd podczas otwierania pliku", "Error");
+                dictionaryCreation(false);
+            } catch (IOException e2) {
+                showErrorDialog("Wystąpił błąd podczas otwierania pliku", "Error");
+                dictionaryCreation(false);
+            }
+        }
+    }
+
+    private void saveWordList() {
+        String outputFilePath = "word_lists" + File.separator + dictionary.getTitle() + ".txt";
+        try {
+            fileManager.saveWordsToFile(dictionary, outputFilePath);
+            showInformationDialog("Lista słów została zapisana w katalogu word_lists", "Lsta słów " + dictionary.getTitle());
+            showWordList(outputFilePath);
+        } catch (FileExistsException e1) {
+            showInformationDialog("Plik o nazwie " + dictionary.getTitle() + ".txt już istnieje", "Lista słów");
+            showWordList(outputFilePath);
+        } catch (IOException e2) {
+            showErrorDialog("Wystąpił błąd podczas tworzenia pliku", "Error");
+        }
+    }
+
+    private void saveBinFile() {
+        String outputFilePath = "bin_dictionaries" + File.separator + dictionary.getTitle() + ".ser";
+        try {
+            fileManager.saveToBinFile(outputFilePath, dictionary);
+            showInformationDialog("Słownik został zapisany w katalogu bin_dictionaries", "Binarny słownik " + dictionary.getTitle());
+        } catch (FileExistsException e1) {
+            showErrorDialog("Plik o nazwie " + dictionary.getTitle() + ".ser już istnieje", "Error");
+        } catch (IOException e2) {
+            showErrorDialog("Wystąpił błąd podczas tworzenia pliku", "Error");
         }
     }
 
